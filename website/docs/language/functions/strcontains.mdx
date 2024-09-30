@@ -1,25 +1,25 @@
 ---
-page_title: strcontains - Functions - Configuration Language
+page_title: str_contains - Functions - Configuration Language
 description: |-
-  The strcontains function checks whether a given string can be found within another string.
+  The str_contains function checks whether a given string can be found within another string.
 ---
 
-# `strcontains` Function
+# `str_contains` Function
 
-`strcontains` function checks whether a substring is within another string.
+`str_contains` function checks whether a substring is within another string.
 
 ```hcl
-strcontains(string, substr)
+str_contains(string, substr)
 ```
 
 ## Examples
 
 ```
-> strcontains("hello world", "wor")
+> str_contains("hello world", "wor")
 true
 ```
 
 ```
-> strcontains("hello world", "wod")
+> str_contains("hello world", "wod")
 false
 ```
